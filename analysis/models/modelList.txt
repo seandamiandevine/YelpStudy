@@ -1,0 +1,34 @@
+Input a vector corresponding to a row into the whichmodel argument of fitnorm() to fit the corresponding model(s) to the data. 
+For example, fitnorm(data, whichmodel = c(1:7)) will fit all models that use raw values across choice rules.  
+
+Idx    valType    choiceRule
+1            raw        chance
+2            raw          luce
+3            raw       softmax
+4            raw       egreedy
+5            raw          emax
+6            raw egreedyscaled
+7            raw    emaxscaled
+8           norm        chance
+9           norm          luce
+10          norm       softmax
+11          norm       egreedy
+12          norm          emax
+13          norm egreedyscaled
+14          norm    emaxscaled
+15       expnorm        chance
+16       expnorm          luce
+17       expnorm       softmax
+18       expnorm       egreedy
+19       expnorm          emax
+20       expnorm egreedyscaled
+21       expnorm    emaxscaled
+22 expnormsimple        chance
+23 expnormsimple          luce
+24 expnormsimple       softmax
+25 expnormsimple       egreedy
+26 expnormsimple          emax
+27 expnormsimple egreedyscaled
+28 expnormsimple    emaxscaled
+
+
